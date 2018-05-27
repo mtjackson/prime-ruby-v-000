@@ -1,7 +1,7 @@
 def prime?(test_number)
-  if test_number < 0
+  if test_number <= 0
     return false
-  else 
+  else
     i = 2
     while i < test_number
       if test_number % i == 0
