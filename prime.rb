@@ -1,3 +1,3 @@
 def prime?(i)
-  if i == 1
+  numbers = [1..100]
 end
