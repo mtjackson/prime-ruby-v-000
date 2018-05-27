@@ -6,4 +6,5 @@ def prime?(test_number)
     end
     i +=1
   end
+  return false
 end
