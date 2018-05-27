@@ -1,6 +1,7 @@
 def prime?(test_number)
   if test_number <= 0
     return false
+  elsif test_number = 1
   else
     i = 2
     while i < test_number
