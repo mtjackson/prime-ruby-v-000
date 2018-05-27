@@ -1,4 +1,5 @@
 def prime?(test_number)
+  if test_number < 0
   i = 2
   while i < test_number
     if test_number % i == 0
