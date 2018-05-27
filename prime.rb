@@ -1,4 +1,4 @@
-def prime?(i)
+def prime?(integer)
   i = 2
   while i < i
   numbers = [1..i]
